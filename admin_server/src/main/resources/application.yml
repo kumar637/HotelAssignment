@@ -1,0 +1,6 @@
+server:
+  port: 9494
+  
+spring:  config:    import: configserver:http://localhost:8888
+  application:    name: admin-server     
+ 
